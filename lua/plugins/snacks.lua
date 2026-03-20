@@ -3,7 +3,7 @@ return {
   priority = 1000,
   lazy = false,
 
-  ---@module 'snacks.nvim'
+  ---@module 'snacks'
   ---@type snacks.Config
   opts = {
     input = { enabled = true },
