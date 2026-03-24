@@ -11,4 +11,13 @@ return {
     { '<leader>fs', '<cmd>Telescope live_grep<cr>' },
     { '<leader>fw', '<cmd>Telescope grep_string<cr>' },
   },
+  opts = {
+    defaults = {
+      file_ignore_patterns = {
+        "node_modules/.*",
+        "vendor/.*",
+        "%.git/.*",
+      },
+    },
+  },
 }
