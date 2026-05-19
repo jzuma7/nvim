@@ -13,6 +13,8 @@ return {
     current_line_blame = true,
   },
   keys = {
+    { '<leader>nh', '<cmd>Gitsigns next_hunk<cr>', desc = 'Próximo Hunk' },
+    { '<leader>Nh', '<cmd>Gitsigns prev_hunk<cr>', desc = 'Hunk Anterior' },
     { '<leader>gp', '<cmd>Gitsigns preview_hunk<cr>', desc = 'Ver Diferença (Preview)' },
     { '<leader>gr', '<cmd>Gitsigns reset_hunk<cr>', desc = 'Reverter Alteração' },
   },
