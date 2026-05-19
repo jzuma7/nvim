@@ -11,6 +11,13 @@ return {
     { '<leader>e', '<cmd>Neotree toggle<cr>' },
   },
   opts = {
+    filesystem = {
+      filtered_items = {
+        visible = true,
+        hide_dotfiles = false,
+        hide_gitignored = false,
+      },
+    },
     use_popups_for_input = false,
     close_if_last_window = true,
     event_handlers = {
